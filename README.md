@@ -2,7 +2,7 @@
 
 ## Student Details
 - GitHub: adroitinelexito-debug
-- LeetCode: om-tiwari-w
+- LeetCode: LeetCode: [Y206541](https://leetcode.com/u/Y206541/)
 - Course: BCA
 
 ## About This Project
