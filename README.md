@@ -1,8 +1,8 @@
 # C Programming Semester Assignment
-
 ## Student Details
+- Name: Om Tiwari
 - GitHub: adroitinelexito-debug
-- LeetCode: LeetCode: [Y206541](https://leetcode.com/u/Y206541/)
+- LeetCode: [Om Tiwari](https://leetcode.com/u/Y206541/)
 - Course: BCA
 
 ## About This Project
