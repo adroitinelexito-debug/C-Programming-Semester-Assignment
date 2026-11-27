@@ -1,11 +1,18 @@
 #include <stdbool.h>
+#include <stdlib.h>
+
+int compare(const void *a, const void *b) {
+    int x = *(const int *)a;
+    int y = *(const int *)b;
+    return (x > y) - (x < y);
+}
 
 bool containsDuplicate(int* nums, int numsSize) {
-    for (int i = 0; i < numsSize; i++) {
-        for (int j = i + 1; j < numsSize; j++) {
-            if (nums[i] == nums[j]) {
-                return true;
-            }
+    qsort(nums, numsSize, sizeof(int), compare);
+
+    for (int i = 1; i < numsSize; i++) {
+        if (nums[i] == nums[i - 1]) {
+            return true;
         }
     }
 
